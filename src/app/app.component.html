@@ -1,11 +1,15 @@
 <div class="container">
 <app-header></app-header>
-<section class="textos-header">
-  <h2 id="textU">Con Teczone consigues productos importados <br> de Estados unidos y china</h2><br>
-  <h2>Además de poder adquirir nuestros servicios</h2>
-</section>
-  <div class="wave" style="height: 110px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C105.25,150.50 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
-  <section class="contenedor-nosotros">
+
+<header>
+  <section class="textos-header">
+      <h1>Con Teczone consigues productos importados de Estados unidos y china</h1><br>
+      <h2>Además de poder adquirir nuestros servicios</h2>
+  </section>
+  <div class="wave" style="height: 106px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C105.25,150.50 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+</header>
+
+ <section class="contenedor-nosotros">
     <div class="contenedor-sobre-nosotros">
         <img src="./assets/images/nosotros.jpg" class="imagen-nosotros">
         <div class="contenido-textos" >
@@ -17,4 +21,43 @@
     </div>
 </section>
   <h2 class="titulo">NUESTROS PRODUCTOS</h2>
+
 <router-outlet></router-outlet>
+
+<section class="services-contenedor" id="servicios">
+  <div class="contenedor">
+      <h2 class="titulo">Contratar algun servicio</h2>
+      <div class="imagen-servi" onclick="location.href='formulario.html'">
+          <img src="./assets/images/img7.jpg">
+          <div class="hover-servi">
+              <img src="./assets/images/target.png">
+              <p>Servicio tecnico <br> de computadoras</p>
+          </div>
+      </div>
+      <div class="imagen-servi" onclick="location.href='formulario.html'">
+          <img src="./assets/images/img6.jpg">
+          <div class="hover-servi">
+              <img src="./assets/images/target.png">
+              <p>Servicio tecnico <br> de celulares</p>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <footer>
+    <div class="contenedor-footer" id="contacto">
+        <div class="content-foo">
+            <h4>Numero de telefono</h4>
+            <p>+58 424-7054326</p>
+        </div>
+        <div class="content-foo">
+            <h4>Email</h4>
+            <p>gabriel1arenales@gmail.com</p>
+        </div>
+        <div class="content-foo">
+            <h4>Localizacion</h4>
+            <p>Avenida los agustinos calle 3<br>San Cristóbal Estado Tachira</p>
+        </div>
+    </div>
+    <h2 class="title-final">TECZONE.VE</h2>
+</footer>

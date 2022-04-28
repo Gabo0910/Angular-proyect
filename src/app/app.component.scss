@@ -1,45 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
 .titulo {
   color: #1C6AC1;
   font-size: 50px;
   text-align: center;
-  margin-bottom: 150px;
-  margin-top: 200px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 180px;
+  margin-top: 90px;
+  text-transform: uppercase;
   font-weight: bold;
+  line-height: 100%;
+
 }
-.textos-header {
+
+//Header
+header {
   width: 100%;
-  height: 890px;
-  background: linear-gradient(to right, #005df181, #030303),url(/../assets//images/portada.jpg);
+  height: 860px;
+  background: linear-gradient(to right, #005df181, #030303),url(../assets//images/portada.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
 }
 
-#textU {
-height: 450px;
-font-size: 68px;
-line-height: 100px;
-}
-
-.textos-header > h2 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+header .textos-header {
   display: flex;
+  height: 740px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  font-size: 65px;
-  font-weight: bold;
-
 }
+
+.textos-header h1 {
+  font-size: 70px;
+  line-height: 100%;
+  font-weight: 900;
+}
+.textos-header h2 {
+  font-size: 65px;
+  line-height: 100%;
+  font-weight: 900;
+}
+
 .wave {
-position: absolute;
-bottom: 0;
-width: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 // Contenedor Nosotros
@@ -93,4 +118,196 @@ width: 100%;
   padding: 2px;
 }
 
-// Products
+// Servicios
+
+
+.imagen-servi {
+  margin: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 5);
+  margin-bottom: 45px;
+   border-radius: 32px;
+}
+.imagen-servi > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 32px;
+}
+.hover-servi > img {
+  width: 10%;
+}
+.hover-servi {
+  position: absolute;
+  top: 0;
+  height: 500px;
+  width: 960px;
+  transform: scale(1);
+  background: hsla(216, 91%, 27%, 0.342);
+  transition: transform .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 32px;
+}
+.hover-servi > p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
+}
+.imagen-servi:hover .hover-servi{
+  transform: scale(0);
+}
+
+/* Footer */
+footer {
+  background: #414141;
+  padding: 60px 0 30px 0;
+  overflow: hidden;
+}
+
+.contenedor-footer {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
+}
+
+.content-foo {
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 190px;
+}
+.content-foo h4 {
+  color: #fff;
+  border-bottom: 4px solid #4286f4;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.content-foo p {
+  color: #ccc;
+  font-size: 18px;
+  text-align: center;
+}
+
+.title-final {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
+}
+
+/* Vista movil */
+@media screen and (max-width:1500px) {
+
+  header {
+    background-position: center;
+}
+  .contenedor-sobre-nosotros {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .contenedor-sobre-nosotros .contenido-textos {
+      width: 90%;
+  }
+
+  .hover-servi {
+      width: 100%;
+      height: 100%;
+  }
+  .contenedor-footer {
+      flex-direction: column;
+      text-align: center;
+      margin-right: 0px;
+      margin-left: 0px;
+  }
+
+}
+
+@media screen and (max-width:900px) {
+
+  .textos-header h1 {
+    font-size: 50px;
+  }
+  .textos-header h2 {
+
+      font-size: 40px;
+  }
+  .contenedor-sobre-nosotros {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .contenedor-sobre-nosotros .contenido-textos {
+      width: 90%;
+  }
+  .contenedor-sobre-nosotros .imagen-nosotros {
+      width: 90%;
+      height: 90%;
+  }
+
+  .imagen-prod {
+      width: 60%;
+  }
+  .hover-servi {
+      width: 100%;
+      height: 100%;
+  }
+
+  .contenedor-footer {
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  header {
+    height: 740px;
+  }
+
+  .textos-header {
+      height: 560px;
+  }
+  .textos-header h2 {
+      font-size: 36px;
+      margin-top: 20px;
+  }
+  .hover-galery > p {
+      font-size: 26px;
+  }
+
+  .imagen-prod{
+      width: 85%;
+  }
+  .imagen-servi {
+      height: 300px;
+  }
+  .titulo {
+      margin-bottom: 60px;
+  }
+  .contenedor {
+      padding: 0;
+  }
+  .content-foo {
+      padding-left: 40px;
+      margin-right: 0px;
+      margin-left: 0px;
+      padding-bottom: 50px;
+  }
+  .contenedor-footer {
+      padding-bottom: 0px;
+  }
+
+}

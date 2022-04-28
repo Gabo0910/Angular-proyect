@@ -57,7 +57,7 @@
       "price": 25,
       "description": "Marca: Seagate, Hitachi, Western digital, Capacidad: 750 GB, Cache: 64 MB.Interfaz: SATA III, 6 Gb/s. Consumo de energía (apagado) 0,94 W, Intervalo de temperatura operativa, Velocidad Rotacional: 7200 RPM.",
       "categoryId": 3,
-      "stock": 6
+      "stock": 4
     },
     {
       "id": 2,
@@ -65,7 +65,7 @@
       "price": 50,
       "description": "Marca: Western Digital, Capacidad: 1 TB, Cache: 64 MB, Interfaz: SATA III, 6 Gb/s, Factor de Forma: 3,5, Velocidad Rotacional: 7200 RPM, Peso: 600 g APROX.",
       "categoryId": 3,
-      "stock": 1
+      "stock": 0
     },
     {
       "id": 3,
@@ -81,7 +81,7 @@
       "price": 15,
       "description": "Espectacular linterna para bicicleta recargable con cuatro modos de modos de iluminación: alta, baja, amarilla y parpadeo. Odómetro que registra, recorrido actual, velocidad máxima, velocidad promedio y tiempo de ruta. Batería recargable interna de litio de 1500 mAh, Duración de la batería con luz alta: 2 horas aproximadamente, Bocina de 120 dB, Luz led. Fabricado en ABS que lo hace a prueba de agua mas no sumergible Peso: 108 gr",
       "categoryId": 2,
-      "stock": 25
+      "stock": 24
     },
     {
       "id": 5,
@@ -97,7 +97,7 @@
       "price": 25,
       "description": "La maquina cortar pelo tiene un diseño totalmente lavable para facilitar la limpieza. Para obtener los mejores resultados, deje que se seque de forma natural. Cuerpo pequeño y fácil de limpiar, bajo nivel de ruido, inferencia de ruido reducida, metal antideslizante. La cuchilla afilada y el potente motor proporcionan una precisión de alto rendimiento, que puede lograr cualquier estilo y evitar la irritación de la piel, para que sea duradero. A largo plazo, la cuchilla puede mantener una nitidez a largo plazo sin peinar, adecuada para cabello húmedo y seco.",
       "categoryId": 2,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 7,
@@ -124,6 +124,147 @@
       "shippingAddress": "Av. los agustinos, calle 3",
       "city": "San Cristobal",
       "pickup": true
+    },
+    {
+      "name": "",
+      "store": "",
+      "data": "27/4/2022",
+      "pickup": false,
+      "id": 2
+    },
+    {
+      "name": "",
+      "store": "",
+      "data": "27/4/2022",
+      "pickup": false,
+      "id": 3
+    },
+    {
+      "name": "Gabo",
+      "shippingAddress": "Avenida los agustinos calle 3",
+      "city": "San Cristobal",
+      "data": "27/4/2022",
+      "pickup": true,
+      "id": 4
+    },
+    {
+      "name": "",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "data": "27/4/2022",
+      "pickup": false,
+      "id": 5
+    },
+    {
+      "name": "",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "data": "27/4/2022",
+      "pickup": false,
+      "id": 6
+    },
+    {
+      "name": "Gabriel Arenales",
+      "store": {
+        "id": 3,
+        "name": "Chambers and West Broadway",
+        "address": "125 Chambers Street",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "data": "27/4/2022",
+      "isDelivery": false,
+      "id": 7
+    },
+    {
+      "name": "Gabriel Arenales",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "data": "27/4/2022",
+      "isDelivery": false,
+      "id": 8
+    },
+    {
+      "name": "Gabriel Arenales",
+      "shippingAddress": "Avenida los agustinos calle 3",
+      "city": "San Cristobal",
+      "data": "27/4/2022",
+      "isDelivery": true,
+      "id": 9
+    },
+    {
+      "name": "Gabriel Arenales",
+      "store": {
+        "id": 3,
+        "name": "Chambers and West Broadway",
+        "address": "125 Chambers Street",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "data": "27/4/2022",
+      "isDelivery": false,
+      "id": 10
+    },
+    {
+      "name": "",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "data": "27/4/2022",
+      "isDelivery": false,
+      "id": 11
+    },
+    {
+      "name": "Gabriel Arenales",
+      "store": {
+        "id": 3,
+        "name": "Chambers and West Broadway",
+        "address": "125 Chambers Street",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "data": "27/4/2022",
+      "isDelivery": false,
+      "id": 12
+    },
+    {
+      "name": "Gabriel Arenales",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "data": "28/4/2022",
+      "isDelivery": false,
+      "id": 13
+    },
+    {
+      "name": "",
+      "store": "",
+      "data": "28/4/2022",
+      "isDelivery": false,
+      "id": 14
     }
   ],
   "detailsOrders": [
@@ -132,6 +273,127 @@
       "orderId": 1,
       "quantity": 10,
       "productName": "Product name"
+    },
+    {
+      "details": [],
+      "orderId": 2,
+      "id": 2
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Disco duro 750 gb Varias marcas",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "productName": "Disco duro de 1 TB Western digital",
+          "quantity": 1
+        }
+      ],
+      "orderId": 3,
+      "id": 3
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Disco duro 750 gb Varias marcas",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "productName": "Disco duro de 1 TB Western digital",
+          "quantity": 1
+        }
+      ],
+      "orderId": 4,
+      "id": 4
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Disco duro de 1 TB Western digital",
+          "quantity": 1
+        }
+      ],
+      "orderId": 5,
+      "id": 5
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Disco duro 750 gb Varias marcas",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "productName": "Disco duro de 1 TB Western digital",
+          "quantity": 1
+        }
+      ],
+      "orderId": 6,
+      "id": 6
+    },
+    {
+      "details": [],
+      "orderId": 7,
+      "id": 7
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Disco duro de 1 TB Western digital",
+          "quantity": 1
+        }
+      ],
+      "orderId": 8,
+      "id": 8
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Disco duro de 1 TB Western digital",
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "productName": "Disco duro 750 gb Varias marcas",
+          "quantity": 1
+        }
+      ],
+      "orderId": 9,
+      "id": 9
+    },
+    {
+      "details": [],
+      "orderId": 10,
+      "id": 10
+    },
+    {
+      "details": [],
+      "orderId": 11,
+      "id": 11
+    },
+    {
+      "details": [],
+      "orderId": 12,
+      "id": 12
+    },
+    {
+      "details": [],
+      "orderId": 13,
+      "id": 13
+    },
+    {
+      "details": [],
+      "orderId": 14,
+      "id": 14
     }
   ]
 }
